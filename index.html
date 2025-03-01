@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Web</title>
+   <link rel="stylesheet" href="bootstrap.min.css">
+   <link rel="stylesheet" href="style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <!-- Contenedor para imagen + texto -->
+            <a href="" class="navbar-brand d-flex align-items-center gap-2">
+                <img src="perfil.png" alt="Logo" class="logo">
+                <span class="text">Gerardo</span> Moctezuma
+            </a>
+    
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                    data-bs-target="#navbar-start" aria-controls="navbar-start" 
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbar-start">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PROJECTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <main class="col-md-10 d-flex flex-column justify-content-center align-items-center text-center mx-auto" style="height: 100vh;">
+        <h1>Hi, I'm <span class="highlight">Mauricio</span>,<br>Software Developer</h1>
+        <p>experience in Java, HTML, CSS, frameworks, and databases. <br>
+            I'm always learning and improving to become a better Full Stack Developer</p>
+        <a href="https://wa.me/524181086931?text=Hello%20Gerardo!%20I'm%20interested%20in%20your%20work." class="btn contact-btn mt-3">Contact Me!</a>
+    </main>
+
+
+     <!-- Sección About Me (Responsiva) -->
+     <section id="about" class="about-section py-5">
+        <div class="container text-center">
+            <h1 class="mb-3 about-title">ABOUT ME</h1>
+            <div class="underline"></div>
+            <p>Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology.</p>
+        </div>
+        <br>
+        <div class="container mt-4">
+            <div class="row">
+                <!-- Texto -->
+                <div class="col-lg-6 text-center text-lg-start">
+                    <h2 class="mb-3 about-title">Get to know me!</h2>
+                    <p>
+                        I'm a <strong>Software Developer</strong> passionate about building and managing websites and web applications. 
+                        I specialize in <strong>FrontEnd and BackEnd Development</strong> with experience in various frameworks and databases.
+                    </p>
+                    <p>
+                        I'm always learning and improving my skills in <strong>Web Development</strong> to create better solutions.
+                        Feel free to connect with me!
+                    </p>
+                    <p>
+                        I'm open to <strong>job opportunities</strong> where I can grow, contribute, and learn more.
+                        If you have a great opportunity, don’t hesitate to <strong>contact</strong> me.
+                    </p>
+                    <br>
+                    <a href="#contact" class="btn btn-primary">Contact</a>
+                </div>
+                
+                <!-- Habilidades -->
+                <div class="col-lg-6">
+                    <h3 class="mb-3">My Skills</h3>
+                    <div class="skills">
+                        <span class="skill-badge">HTML</span>
+                        <span class="skill-badge">CSS</span>
+                        <span class="skill-badge">Java</span>
+                        <span class="skill-badge">React</span>
+                        <span class="skill-badge">Java</span>
+                        <span class="skill-badge">Git</span>
+                        <span class="skill-badge">Databases</span>
+                        <span class="skill-badge">Responsive Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+   <script src="bootstrap.min.js"></script>
+</body>
+
+</html>
